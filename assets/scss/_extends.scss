@@ -1,0 +1,14 @@
+%transition {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+%background {
+    background: rgba(243,129,129,0.9);
+    background: -webkit-linear-gradient(top,rgba(243,129,129,0.9),rgba(252,227,138,0.9));
+    background: -o-linear-gradient(top,rgba(243,129,129,0.9),rgba(252,227,138,0.9));
+    background: linear-gradient(to bottom,rgba(243,129,129,0.9),rgba(252,227,138,0.9));
+}

@@ -1,0 +1,27 @@
+#map {
+  padding: 40px 0;
+  background: url(../../images/map/bg-map.jpg) no-repeat center center/cover; }
+
+#map .sectionHeading {
+  color: #f28989;
+  margin: 0; }
+
+#map .sectionHeading span {
+  cursor: pointer; }
+
+#map .sectionHeading .icon {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 40px; }
+
+#map .mapWrap {
+  visibility: hidden;
+  opacity: 0;
+  height: 0 !important;
+  margin-top: 20px; }
+
+#map.showMap .mapWrap {
+  visibility: visible;
+  opacity: 1;
+  height: auto !important;
+  border: 2px solid #ff9c00; }

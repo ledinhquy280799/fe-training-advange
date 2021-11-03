@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Training Test</title>
+    <!-- Boostrap CSS -->
+<link rel="stylesheet" href="./assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+
+<!-- Fonts -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.4.95/css/materialdesignicons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+<!-- Fancybox css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+    
+    <header id="header">
+    <div id="headerInner">
+        <nav id="navigation-bar" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">MoGo</a>
+                </div>
+                <div class="menuItem pull-right">
+                    <div id="navbar-collapse" class="collapse navbar-collapse pull-left" aria-expanded="true">
+                        <nav class="nav navbar-nav">
+                            <ul class="nav navbar-nav">
+                                <li><a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">About</a></li>
+                                <li><a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">Service</a></li>
+                                <li><a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">Work</a></li>
+                                <li><a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">Blog</a></li>
+                                <li><a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <ul class="iconsGroup nav navbar-nav">
+                        <li>
+                            <i class="mdi mdi-cart-outline icon"></i>
+                        </li>
+                        <li>
+                            <i class="mdi mdi-magnify icon"></i>
+                            <div class="togglesearch">
+                                <input type="text" placeholder=""/>
+                                <input type="button" value="Search"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="slider" class="carousel slide container" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <h2 class="sectionHeading">
+                        <span class="subHeading">Creative Template</span> Welcome <br> to MoGo
+                    </h2>
+                    <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="header-button">Learn more</a>
+                </div>
+                <div class="item">
+                    <h2 class="sectionHeading">
+                        <span class="subHeading">Creative Template</span> Welcome <br> to MoGo
+                    </h2>
+                    <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="header-button">Learn more</a>
+                </div>
+                <div class="item">
+                    <h2 class="sectionHeading">
+                        <span class="subHeading">Creative Template</span> Welcome <br> to MoGo
+                    </h2>
+                    <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="header-button">Learn more</a>
+                </div>
+                <div class="item">
+                    <h2 class="sectionHeading">
+                        <span class="subHeading">Creative Template</span> Welcome <br> to MoGo
+                    </h2>
+                    <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="header-button">Learn more</a>
+                </div>
+            </div>
+            <ol class="carousel-indicators clearfix">
+                <li data-target="#slider" data-slide-to="0">
+                    <div class="inner">
+                        <span class="number">01</span> intro
+                    </div>
+                </li>
+                <li data-target="#slider" data-slide-to="1">
+                    <div class="inner">
+                        <span class="number">02</span> work
+                    </div>
+                </li>
+                <li data-target="#slider" data-slide-to="2">
+                    <div class="inner">
+                        <span class="number">03</span> about
+                    </div>
+                </li>
+                <li data-target="#slider" data-slide-to="3">
+                    <div class="inner">
+                        <span class="number">04</span> contacts
+                    </div>
+                </li>
+            </ol>
+        </section>
+    </div>
+</header>
+
+    <main>
+        <section id="story">
+    <div class="container">
+        <h2 class="sectionHeading">
+            <span class="subHeading">What we do</span> Story about us
+        </h2>
+        <p class="sectionDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="sectionContent">
+            <div class="row hoverEffect">
+                <div class="col-md-4 col-sm-4">
+                    <div class="item">
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="overlay">
+                            <span class="content">
+                                <i class="mdi mdi-account-multiple icon"></i> super team
+                            </span>
+                            <img src="./assets/images/story/img-1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="item">
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="overlay">
+                            <span class="content">
+                                <i class="mdi mdi-account-multiple icon"></i> super team
+                            </span>
+                            <img src="./assets/images/story/img-2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="item">
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="overlay">
+                            <span class="content">
+                                <i class="mdi mdi-account-multiple icon"></i> super team
+                            </span>
+                            <img src="./assets/images/story/img-3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="counting">
+    <div class="container">
+        <div class="row inline-columns">
+            <div class="item">
+                <div class="number" id="web-projects" data-from="1" data-to="42" data-speed="2000" data-refresh-interval="1000"></div>
+                <div class="text">Web Design Projects</div>
+            </div>
+            <div class="item">
+                <div class="number" id="client" data-from="1" data-to="123" data-speed="2000" data-refresh-interval="1000"></div>
+                <div class="text">happy client</div>
+            </div>
+            <div class="item">
+                <div class="number" id="winner" data-from="1" data-to="15" data-speed="2000" data-refresh-interval="1000"></div>
+                <div class="text">award winner</div>
+            </div>
+            <div class="item">
+                <div class="number" id="coffee" data-from="1" data-to="99" data-speed="2000" data-refresh-interval="1000"></div>
+                <div class="text">cup of coffee</div>
+            </div>
+            <div class="item">
+                <div class="number" id="members" data-from="1" data-to="24" data-speed="2000" data-refresh-interval="1000"></div>
+                <div class="text">members</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="portfolio">
+    <div class="container">
+        <h2 class="sectionHeading">
+            <span class="subHeading">What we do</span> some of our work
+        </h2>
+        <p class="sectionDesc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+    <div class="sectionContent">
+        <ul class="portfolioItems">
+            <li class="item">
+                <a class="prettyPhoto" data-fancybox="gallery" data-caption="image one" rel="prettyPhoto[gallery1]" title="Development Mobile" href="./assets/images/our-work/img-1.jpg">
+                    <img src="./assets/images/our-work/img-1.jpg" />
+                    <div class="overlay">
+                        <div class="content">
+                            <i class="mdi mdi-crown icon"></i>
+                            <h4 class="title">creatively designed</h4>
+                            <span class="desc">Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a class="prettyPhoto" data-fancybox="gallery" data-caption="image two" rel="prettyPhoto[gallery1]" title="Development Mobile" href="./assets/images/our-work/img-2.jpg">
+                    <img src="./assets/images/our-work/img-2.jpg" />
+                    <div class="overlay">
+                        <div class="content">
+                            <i class="mdi mdi-cube-outline icon"></i>
+                            <h4 class="title">creatively designed</h4>
+                            <span class="desc">Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a class="prettyPhoto" data-fancybox="gallery" data-caption="image three" rel="prettyPhoto[gallery1]" title="Development Mobile" href="./assets/images/our-work/img-3.jpg">
+                    <img src="./assets/images/our-work/img-3.jpg" />
+                    <div class="overlay">
+                        <div class="content">
+                            <i class="mdi mdi-desktop-mac icon"></i>
+                            <h4 class="title">creatively designed</h4>
+                            <span class="desc">Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a class="prettyPhoto" data-fancybox="gallery" data-caption="image four" rel="prettyPhoto[gallery1]" title="Development Mobile" href="./assets/images/our-work/img-4.jpg">
+                    <img src="./assets/images/our-work/img-4.jpg" />
+                    <div class="overlay">
+                        <div class="content">
+                            <i class="mdi mdi-flower icon"></i>
+                            <h4 class="title">creatively designed</h4>
+                            <span class="desc">Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a class="prettyPhoto" data-fancybox="gallery" data-caption="image five" rel="prettyPhoto[gallery1]" title="Development Mobile" href="./assets/images/our-work/img-5.jpg">
+                    <img src="./assets/images/our-work/img-5.jpg" />
+                    <div class="overlay">
+                        <div class="content">
+                            <i class="mdi mdi-gamepad-variant icon"></i>
+                            <h4 class="title">creatively designed</h4>
+                            <span class="desc">Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a class="prettyPhoto" data-fancybox="gallery" data-caption="image six" rel="prettyPhoto[gallery1]" title="Development Mobile" href="./assets/images/our-work/img-6.jpg">
+                    <img src="./assets/images/our-work/img-6.jpg" />
+                    <div class="overlay">
+                        <div class="content">
+                            <i class="mdi mdi-gnome icon"></i>
+                            <h4 class="title">creatively designed</h4>
+                            <span class="desc">Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="item">
+                <a class="prettyPhoto" data-fancybox="gallery" data-caption="image seven" rel="prettyPhoto[gallery1]" title="Development Mobile" href="./assets/images/our-work/img-7.jpg">
+                    <img src="./assets/images/our-work/img-7.jpg" />
+                    <div class="overlay">
+                        <div class="content">
+                            <i class="mdi mdi-guitar-electric icon"></i>
+                            <h4 class="title">creatively designed</h4>
+                            <span class="desc">Lorem ipsum dolor sit</span>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+        <section id="latestBlog">
+    <div class="container">
+        <h2 class="sectionHeading">
+            <span class="subHeading">Our stories</span> Latest Blog
+        </h2>
+        <div class="sectionContent">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <article>
+                        <div class="articleThumb">
+                            <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                                <img src="./assets/images/our-blog/img-1 (1).jpg" alt="">
+                            </a>
+                            <div class="date">
+                                <span class="number">15</span>
+                                <span class="text">Jan</span>
+                            </div>
+                        </div>
+                        <h3 class="articleTitle">
+                            <a href="#">Lorem ipsum dolor sit amet</a>
+                        </h3>
+                        <p class="articleDesc">
+                            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="articlemeta">
+                            <a href="#">
+                                <i class="mdi mdi-eye icon"></i> 543
+                            </a>
+                            <a href="#">
+                                <i class="mdi mdi-comment-multiple-outline icon"></i> 15
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <article>
+                        <div class="articleThumb">
+                            <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                                <img src="./assets/images/our-blog/img-2.jpg" alt="">
+                            </a>
+                            <div class="date">
+                                <span class="number">24</span>
+                                <span class="text">Jan</span>
+                            </div>
+                        </div>
+                        <h3 class="articleTitle">
+                            <a href="#">sed do eiusmod tempor</a>
+                        </h3>
+                        <p class="articleDesc">
+                            Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="articlemeta">
+                            <a href="#">
+                                <i class="mdi mdi-eye icon"></i> 995
+                            </a>
+                            <a href="#">
+                                <i class="mdi mdi-comment-multiple-outline icon"></i> 42
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <article>
+                        <div class="articleThumb">
+                            <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                                <img src="./assets/images/our-blog/img-3.jpg" alt="">
+                            </a>
+                            <div class="date">
+                                <span class="number">12</span>
+                                <span class="text">Jan</span>
+                            </div>
+                        </div>
+                        <h3 class="articleTitle">
+                            <a href="#">incididunt ut labore et dolore</a>
+                        </h3>
+                        <p class="articleDesc">
+                            Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="articlemeta">
+                            <a href="#">
+                                <i class="mdi mdi-eye icon"></i> 1264
+                            </a>
+                            <a href="#">
+                                <i class="mdi mdi-comment-multiple-outline icon"></i> 69
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="map">
+    <div class="container">
+        <h2 class="sectionHeading">
+            <i class="mdi mdi-map-marker icon"></i>
+            <span id="openMap" data-toggle="modal" data-target=".myModal" class="text">Open map</span>
+            <!-- <span id="closeMap" class="text" style="display: none;">Close map</span> -->
+        </h2>
+        <!-- <div class="mapWrap" style="opacity: 1; overflow: visible;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.74803131378!2d107.58029221468935!3d16.43761838865422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a15630f95ad3%3A0x96b2aad36d5d712f!2zxJDDoG4gTmFtIEdpYW8sIFRyxrDhu51uZyBBbiwgVGjDoG5oIHBo4buRIEh14bq_LCBUaOG7q2EgVGhpw6puIEh14bq_LCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1635348262879!5m2!1svi!2s" width="1135" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div> -->
+        <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Our Location</h4>
+                </div>
+                <div class="modal-body"><!-- Modal that will show up the responsive map -->
+                    <div class="embed-responsive embed-responsive-4by3">
+                      <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.74803131378!2d107.58029221468935!3d16.43761838865422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a15630f95ad3%3A0x96b2aad36d5d712f!2zxJDDoG4gTmFtIEdpYW8sIFRyxrDhu51uZyBBbiwgVGjDoG5oIHBo4buRIEh14bq_LCBUaOG7q2EgVGhpw6puIEh14bq_LCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1635348262879!5m2!1svi!2s" width="560" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="colInfo">
+                    <div class="footerLogo">
+                        <a href="#">MoGo</a>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="followUs">
+                        <div class="totalFollow">
+                            <span>15k</span> followers
+                        </div>
+                        <div class="socialNetwork">
+                            <span class="text">Follow Us:</span>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-facebook"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-twitter"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-instagram"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-pinterest"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-google-plus"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-youtube"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-dribbble"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="mdi mdi-tumblr"></i>
+                            </a>                                
+                        </div>
+                    </div>
+                    <form action="#" method="POST" class="subscribeForm">
+                        <div class="input-group input-group-lg">
+                            <input type="email" name="" id="" class="form-control" placeholder="Your Email" required>
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" type="submit">Subscribe</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="colInfo">
+                    <h3 class="colHeading">Blogs</h3>
+                    <ul class="listArticles">
+                        <li>
+                            <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="articleThumb fsr">
+                                <img src="./assets/images/our-blog/img-4.jpg" alt="">
+                            </a>
+                            <div class="info">
+                                <h3 class="articleTitle">
+                                    <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                                </h3>
+                                <div class="date">
+                                    Jan 9, 2016
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="articleThumb fsr">
+                                <img src="./assets/images/our-blog/img-5.jpg" alt="">
+                            </a>
+                            <div class="info">
+                                <h3 class="articleTitle">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                                </h3>
+                                <div class="date">
+                                    Jan 9, 2016
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="articleThumb fsr">
+                                <img src="./assets/images/our-blog/img-6.jpg" alt="">
+                            </a>
+                            <div class="info">
+                                <h3 class="articleTitle">
+                                    <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing</a>
+                                </h3>
+                                <div class="date">
+                                    Jan 9, 2016
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="colInfo">
+                    <h3 class="colHeading">instagram</h3>
+                    <div class="instagramImages clearfix">
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-1.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-2.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-3.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-4.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-5.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-6.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-7.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-8.jpg" alt="">
+                        </a>
+                        <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh">
+                            <img src="./assets/images/instagram/img-9.jpg" alt="">
+                        </a>
+                    </div>
+                    <a href="https://doraemon.fandom.com/vi/wiki/Trang_Ch%C3%ADnh" class="morePhoto">View more photos</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2016 MoGo free PSD template by <a href="#">Laaqiq</a>
+        </div>
+    </div>
+</footer>
+    <!-- Jquery -->
+<script src="../../assets/js/jquery-3.6.0.min.js"></script>
+
+<!-- Isotype javascript -->
+<script src="../../assets/js/isotope.pkgd.min.js"></script>
+
+<!-- Hoverdir javascript -->
+<script src="../../assets/js/jquery.hoverdir.js"></script>
+<script src="../../assets/js/modernizr.custom.97074.js"></script>
+
+<!-- Bootstrap javascript -->
+<script src="../../assets/js/bootstrap.min.js"></script>
+
+<!-- Fancybox javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+<!-- Main Javascript -->
+<script src="../../assets/js/script.js"></script>
+</body>
+</html>

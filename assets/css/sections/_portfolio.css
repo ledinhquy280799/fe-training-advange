@@ -1,0 +1,48 @@
+#portfolio {
+  padding-bottom: 0; }
+  #portfolio .portfolioItems {
+    position: relative;
+    margin: 0;
+    padding: 0; }
+    #portfolio .portfolioItems li {
+      float: left;
+      width: 25%;
+      background: #fff;
+      position: relative; }
+      #portfolio .portfolioItems li .content {
+        position: absolute;
+        left: 0 !important;
+        top: 50% !important;
+        width: 100%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+      #portfolio .portfolioItems li .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background: rgba(243, 129, 129, 0.9);
+        background: -webkit-linear-gradient(top, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+        background: -o-linear-gradient(top, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, 0.9)), to(rgba(252, 227, 138, 0.9)));
+        background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)); }
+      #portfolio .portfolioItems li a {
+        overflow: hidden;
+        color: #fff;
+        display: block;
+        position: relative; }
+        #portfolio .portfolioItems li a img {
+          display: block;
+          position: relative; }
+      #portfolio .portfolioItems li .icon {
+        font-size: 30px; }
+      #portfolio .portfolioItems li .title {
+        color: #fff;
+        font-size: 14px;
+        margin: 5px 0 5px; }
+      #portfolio .portfolioItems li .desc {
+        font-style: italic;
+        font-size: 12px; }

@@ -1,0 +1,115 @@
+#slider {
+    padding: 40px 0 0;
+
+    @media (max-width: 768px) {
+        padding-top: 10px;
+    }
+
+    .sectionHeading {
+        font-size: 110px;
+        color: $font-color;
+
+        @media (max-width: 640px) {
+            font-size: 45px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 60px;
+        }
+
+        .subHeading {
+            font-size: 55px;
+
+            @media (max-width: 640px) {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .carousel-inner {
+        height: 386px;
+
+        @media (max-width: 640px) {
+            height: 205px;
+        }
+
+        @media (max-width: 768px) {
+            height: 270px;
+        }
+
+        >.item {
+            text-align: center;
+            color: $font-color;
+        }
+    }
+
+    .carousel-indicators {
+        width: 100%;
+        left: 0;
+        margin: 0;
+        position: static;
+        margin-top: 80px;
+
+        @media (max-width: 768px) {
+            margin-top: 30px;
+        }
+
+        li {
+            float: left;
+            width: 25%;
+            height: auto;
+            margin: 0;
+            text-indent: initial;
+            border-radius: 0;
+            background: none;
+            text-align: left;
+            border: none;
+
+            .active {
+                @extend li
+            }
+
+            .inner {
+                border-top: 2px solid #f7eac4;
+                position: relative;
+                color: #faf3e0;
+                text-transform: uppercase;
+                margin: 0 12px;
+                padding: 10px 0;
+            }
+
+            .number {
+                font-weight: 700;
+                font-size: 18px;
+                margin-right: 3px;
+
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+
+        li:hover .inner:after, li.active .inner:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -2px;
+            width: 0px;
+            height: 2px;
+            background: #f38181;
+            animation: progress-anim-1 5s ease-in-out;
+        }
+    }
+}
+
+@keyframes progress-anim-1 {
+    0% {
+        width: 0%;
+    }
+    // 50% {
+    //     width: 50%;
+    // }
+    100% {
+        width: 100%;
+    }
+}

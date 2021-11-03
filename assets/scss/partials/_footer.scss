@@ -1,0 +1,153 @@
+footer {
+    padding-top: 50px;
+    background: #f8f8f8;
+
+    @media (max-width: 640px) {
+        padding-top: 30px;
+    }
+
+    .colInfo {
+        margin-bottom: 30px;
+    }
+
+    .colHeading {
+        margin: 0 0 25px;
+        font-size: 14px;
+    }
+
+    .followUs {
+        margin: 25px 0;
+
+        .totalFollow {
+            color: #333;
+            font-weight: 500;
+            font-family: 'Montserrat',sans-serif;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+
+            span {
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            margin: 15px 0;
+        }
+    }
+
+    .morePhoto {
+        color: #999;
+        font-style: italic;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .copyright {
+        text-align: center;
+        border-top: 1px solid #e5e5e5;
+        padding: 20px 0;
+
+        a {
+            color: $primary-color;
+        }
+    }
+
+    .footerLogo {
+        a {
+            color: #ccc;
+            font-size: 40px;
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 20px;
+            line-height: 100%;
+        }
+    }
+
+    .followUs {
+        .socialNetwork {
+            .text {
+                font-style: italic;
+                font-weight: 300;
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            .icon {
+                display: inline-block;
+                margin: 0 3px;
+                font-size: 18px;
+                color: #95e1d3;
+            }
+        }
+    }
+
+    .subscribeForm {
+        input[type=email]:focus {
+            border: 1px solid $primary-color;
+        }
+
+        .input-group {
+            input {
+                border-color: #e7e7e7;
+                box-shadow: none;
+                font-style: italic;
+                font-size: 15px;
+                border-radius: 0;
+            }
+
+            .btn {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                background: #95e1d3;
+                border: none;
+                border-radius: 0;
+
+                &:hover {
+                    background: $primary-color;
+                }
+            }
+        }
+    }
+
+    .listArticles {
+        .articleThumb {
+            width: 120px;
+            margin-right: 15px;
+            float: left;
+        }
+
+        .articleTitle {
+            font-size: 12px;
+            margin: 0 0 5px;
+            line-height: 1.4;
+        }
+
+        .date {
+            font-style: italic;
+        }
+
+        >li {
+            margin-bottom: 40px;
+        }
+    }
+
+    .instagramImages {
+        a {
+            float: left;
+            width: 89px;
+            margin: 1px;
+
+            @media (max-width: 1200px) {
+                width: 70px;
+            }
+        }
+    }
+}
+
+
+

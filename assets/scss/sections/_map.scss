@@ -1,0 +1,35 @@
+#map {
+    padding: 40px 0;
+    background: url(../../../assets/images/map/bg-map.jpg) no-repeat center center / cover;
+
+    .sectionHeading {
+        color: $primary-color;
+        margin: 0;
+
+        span {
+            cursor: pointer;
+        }
+
+        .icon {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 40px;
+        }
+    }
+
+    .mapWrap {
+        visibility: hidden;
+        opacity: 0;
+        height: 0 !important;
+        margin-top: 20px;
+    }
+
+    .showMap {
+        .mapWrap {
+            visibility: visible;
+            opacity: 1;
+            height: auto !important;
+            border: 2px solid #ff9c00;
+        }
+    }
+}
