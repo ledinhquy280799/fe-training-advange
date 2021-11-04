@@ -475,7 +475,7 @@ ul, ul li, ul #slider .carousel-indicators li .active, #slider .carousel-indicat
 
 #map {
   padding: 40px 0;
-  background: url(../../../assets/images/map/bg-map.jpg) no-repeat center center/cover; }
+  background: url(../../assets/images/map/bg-map.jpg) no-repeat center center/cover; }
   #map .sectionHeading {
     color: #f28989;
     margin: 0; }
