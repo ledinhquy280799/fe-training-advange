@@ -409,6 +409,8 @@ ul, ul li, ul #slider .carousel-indicators li .active, #slider .carousel-indicat
         color: #fff;
         display: block;
         position: relative; }
+        #portfolio .portfolioItems li a:hover, #slider .carousel-indicators li #portfolio .portfolioItems .active a:hover {
+          color: #fff !important; }
         #portfolio .portfolioItems li a img, #portfolio .portfolioItems #slider .carousel-indicators li .active a img, #slider .carousel-indicators li #portfolio .portfolioItems .active a img {
           display: block;
           position: relative; }
