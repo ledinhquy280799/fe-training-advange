@@ -1,5 +1,5 @@
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "mixins";
+@import "custom_variables";
 
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
@@ -15,4 +15,6 @@
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/modals";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
